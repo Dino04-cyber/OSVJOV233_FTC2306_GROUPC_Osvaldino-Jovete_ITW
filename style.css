@@ -1,0 +1,32 @@
+body{
+    text-align: center;
+    align-items: center;
+    background-color: rgb(59, 58, 58);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: medium;
+
+}
+h1, h2, h3, h4, h5, h6, footer,{
+    color: aliceblue;
+
+}
+p{
+    color: rgb(0, 0, 0);
+    
+}
+#bottom{
+    color: rgb(0, 0, 0);
+    background-color: aquamarine;
+}
+
+#top{
+    color: rgb(0, 0, 0);
+    background-color: aquamarine;
+}
+image{
+    width: fit-content;
+}
+.img{
+    width: 200px;
+    height: auto;
+}
