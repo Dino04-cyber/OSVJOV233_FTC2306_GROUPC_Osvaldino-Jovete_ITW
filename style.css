@@ -58,6 +58,18 @@ nav {
   color: blueviolet;
   position: relative;
   position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav a{
+  margin: 10px;
+  border-radius: 5px;
+  background:rgb(86, 0, 167);
+  color: #000000;
+  display: block;
+  padding: 15px;
+  text-decoration: none;
 }
 #back-to-top {
   position: fixed;
@@ -67,11 +79,11 @@ nav {
   bottom: 80px;
   right: 80px;
   padding: 10px;
-  background-color: blueviolet;
+  background-color: rgb(86, 0, 167);
 }
 
 button {
-  background-color: blueviolet;
+  background-color:rgb(86, 0, 167);
   border-radius: 0px;
   border: 0;
 
