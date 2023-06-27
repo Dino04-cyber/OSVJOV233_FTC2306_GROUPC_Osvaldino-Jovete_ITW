@@ -5,29 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/ico" href="images\android-chrome-192x192.png">
     <link rel="stylesheet" href="./style.css">
-    <title>Resume6</title>
+    <title>Resume5</title>
   </head>
   <body>
 <header>
-  <nav>
-    <a href="#education">Education</a>
-    <a href="#contacts">Contacts</a>
-    <a href="#skills">Skills</a>
-    <a href="#experience">Experience</a>
- </nav>   
   <div id="top">
     <h1>Osvaldino Jovete</h1>
   </div>
     <br>
     <p>A Introductory to personal statement</p>
  <aside>
-  <a id="back-to-top" href="#top">
-    <button >
-        &uarr;
-    </button>
-  </a>
   <img src="images\me.jpg"  alt="me" class="img">
 </header>
+     <br>
+     <a href="#education">Education</a>
+     <br>
+     <a href="#contacts">Contacts</a>
+     <br>
+     <a href="#skills">Skills</a>
+     <br>
+     <a href="#experience">Experience</a>
   </aside>
      <br>
   <article>
@@ -73,11 +70,11 @@
     </section>
     <section>  
       <h2 id="skills">Skills</h2>
-       Football
-       <br>
-       Gym
-       <br>
-       Basketball
+      <ol>
+       <li>Football</li>
+       <li>Gym</li>
+       <li>Basketball</li>
+      </ol>
     </section>
   </article>
     <footer>
@@ -87,7 +84,25 @@
      <a href="https://twitter.com/?lang=en" target="_blank"><img src="https://i.ibb.co/Wnxq2Nq/twitter.png"></a>
      <a href="https://www.instagram.com/" target="_blank"><img src="https://i.ibb.co/ySwtH4B/instagram.png"></a>
      <a href="https://github.com/Dino04-cyber/resume/tree/main" target="_blank"><img src="images\favicon.ico"></a>
-    </div> 
+    </div>
+  <div id="forms">
+    <form action="https://formsubmit.co/djovety@gmail.com" method="POST">
+        <br><br>
+        <label for="name">Your Name:</label>
+        <input type="name" id="name" name="name" required>
+        <br><br>
+        <label for="surname">Your Surname:</label>
+        <input type="surname" id="surname" name="surname" required>
+        <br><br>
+        <label for="email">Your Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br><br>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" cols="50"></textarea>
+        <br><br>
+        <input type="submit" value="Submit">
+    </form>  
+  </div>     
     </footer>
   </body>
 </html>
