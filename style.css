@@ -1,3 +1,23 @@
+nav {
+  background-color: rgb(0, 0, 0);
+  color: blueviolet;
+  position: relative;
+  position: fixed;
+  display: flex;
+  column-gap: 20rem;
+  row-gap: 20rem;
+  justify-content: center;
+  align-items: center;
+}
+nav a {
+  margin: 2px;
+  border-radius: 5px;
+  background: rgb(86, 0, 167);
+  color: #000000;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+}
 body {
   text-align: center;
   align-items: center;
@@ -5,6 +25,7 @@ body {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-size: medium;
 }
+
 ul {
   list-style-type: none;
   list-style: none;
@@ -60,25 +81,7 @@ h3 {
 #bottom {
   background-color: rgb(255, 255, 255);
 }
-nav {
-  background-color: rgb(0, 0, 0);
-  margin-top: 0%;
-  color: blueviolet;
-  position: relative;
-  position: fixed;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-}
-nav a {
-  margin: 10px;
-  border-radius: 5px;
-  background: rgb(86, 0, 167);
-  color: #000000;
-  display: block;
-  padding: 15px;
-  text-decoration: none;
-}
+
 #back-to-top {
   position: fixed;
   border-radius: 50%;
@@ -98,6 +101,8 @@ button {
 /* Small devices (portrait tablets and large phones, 320px and up) */
 @media only screen and (min-width: 320px) {
   body {
+    text-align: left;
+    align-items: left;
     font-size: small;
     width: fit-content;
   }
@@ -114,6 +119,8 @@ button {
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
   body {
+    text-align: left;
+    align-items: left;
     font-size: medium;
     width: fit-content;
     margin: 0.5%;
@@ -133,8 +140,11 @@ button {
 /* Large devices (laptops/desktops, 1024px and up) */
 @media only screen and (min-width: 1024px) {
   body {
+    text-align: center;
+    align-items: center;
     font-size: large;
     width: fit-content;
+
   }
   p {
     width: fit-content;
