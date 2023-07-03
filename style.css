@@ -5,6 +5,10 @@ body {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-size: medium;
 }
+ul {
+  list-style-type: none;
+  list-style: none;
+ }
 h1,
 h2,
 h3,
@@ -31,7 +35,7 @@ image {
   border: 5px solid white;
   position: relative;
   left: 0;
-  top: 50px;
+  top: 40px;
 }
 header {
   background-image: url(/images/banner.jpg);
@@ -40,7 +44,7 @@ header {
   background-size: cover;
   background-color: rgb(0, 0, 0);
   margin: 0px;
-  padding: 20px;
+  padding: 19px;
   border-radius: 8px;
 }
 h3 {
@@ -102,6 +106,10 @@ button {
     align-items: left;
     width: fit-content;
   }
+  #forms{
+    align-items: flex-start;
+    align-content: flex-start;
+  }
 }
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
@@ -132,5 +140,9 @@ button {
     width: fit-content;
     text-align: center;
     align-items: center;
+  }
+  footer {
+    align-items: flex-start;
+    align-content: flex-start;
   }
 }
