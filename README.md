@@ -20,6 +20,7 @@ Here's an overview of the repository's folder structure:
 
 - `resume1.html` to `resume8.html` - These HTML files represent different versions of my resume.
 - `style.css` - The central CSS file for styling all the resume versions.
+-  `images` - The central images folder for all images used in the resume.html files.
 
 You can explore each resume version by opening the respective HTML file in your web browser. The CSS file ensures that all versions maintain a consistent design theme.
 
