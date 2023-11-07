@@ -31,4 +31,4 @@ To view the different resume versions, follow these steps:
 1. Clone this repository to your local machine:
 
    ```bash
-   git clone https://github.com/yourusername/resume-versions.git
+   git clone https://github.com/Dino04-cyber/OSVJOV233_FTC2306_GROUPC_Osvaldino-Jovete_ITW.git
